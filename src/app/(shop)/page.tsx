@@ -1,6 +1,6 @@
 import { Title } from "@/components/title/Title";
 import { initialData } from "@/seed/seed";
-import { ProdcutGrid } from "@/components/products/product-grid/ProdcutGrid";
+import { ProductGrid } from "@/components/products/product-grid/ProductGrid";
 
 const products = initialData.products;
 
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Title title="Tienda" subtitle="Todos los productos" className="mb-2" />
 
-      <ProdcutGrid products={products} />
+      <ProductGrid products={products} />
     </>
   );
 }
