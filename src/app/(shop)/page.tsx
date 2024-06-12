@@ -1,11 +1,10 @@
-import Image from "next/image";
 import { titleFont } from "@/config/fonts";
+import { Title } from "@/components/title/Title";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center">
-      <h1>HOME</h1>
-      <h1 className={`${titleFont.className} font-semibold`}>App</h1>
-    </div>
+    <>
+      <Title title="Tienda" subtitle="Todos los productos" className="mb-2" />
+    </>
   );
 }
