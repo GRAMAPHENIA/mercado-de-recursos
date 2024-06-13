@@ -51,7 +51,7 @@ export const TopMenu = () => {
 
         <Link className="mx-2" href="/cart">
           <div className="relative">
-            <span className="absolute text-xs rounded-full px-1 font-bold -top-2 -right-2 bg-stone-500/80 text-white">
+            <span className="absolute text-xs rounded-full px-1 font-bold -top-[9px] -right-[9px] bg-stone-400/90 text-white border border-stone-500">
               3
             </span>
             <IoCartOutline className="w-5 h-5" />
