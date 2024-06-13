@@ -6,3 +6,4 @@ export * from "./products/product-grid/ProductGridItem";
 export * from "./ui/sidebar/SideBar";
 export * from "./product/size-selector/SizeSelector";
 export * from "./quantity-selector/QuantitySelector";
+export * from "./product/slideshow/ProductSlideshow";

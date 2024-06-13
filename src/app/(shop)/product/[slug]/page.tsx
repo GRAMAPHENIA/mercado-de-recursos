@@ -3,6 +3,7 @@ import { titleFont } from "@/config/fonts";
 import { notFound } from "next/navigation";
 import { SizeSelector } from "@/components/product/size-selector/SizeSelector";
 import { QuantitySelector } from "@/components/product/quantity-selector/QuantitySelector";
+import { ProductSlideshow } from "@/components/product/slideshow/ProductSlideshow";
 
 interface Props {
   params: {
@@ -22,7 +23,7 @@ export default function ({ params }: Props) {
     <div className="mt-5 mb-20 grid grid-cols-1 md:grid-cols-3 gap-3">
       {/* Slideshow */}
       <div className="col-span-1 md:col-span-2">
-        <h1>Texto</h1>
+        <ProductSlideshow title={product.title} images={product.images} />
       </div>
 
       {/* Detalles */}
