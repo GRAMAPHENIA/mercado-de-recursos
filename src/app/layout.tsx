@@ -4,7 +4,7 @@ import { inter } from "@/config/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Estudio Hexágono",
+  title: "Gramaphenicos | Tienda",
   description: "Mercado de Assets",
 };
 
