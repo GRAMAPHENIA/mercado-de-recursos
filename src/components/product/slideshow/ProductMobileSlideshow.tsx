@@ -20,10 +20,10 @@ export const ProductMobileSlideshow = ({ images, title, className }: Props) => {
   return (
     <div className={className}>
       <Swiper
-        // style={{
-        //   width: "100vh",
-        //   height: "500px",
-        // }}
+        style={{
+          width: "100vh",
+          height: "500px",
+        }}
         style={
           {
             "--swiper-navigation-color": "#123",
@@ -31,7 +31,6 @@ export const ProductMobileSlideshow = ({ images, title, className }: Props) => {
           } as React.CSSProperties
         }
         pagination
-        navigation={true}
         autoplay={{
           delay: 2500,
         }}

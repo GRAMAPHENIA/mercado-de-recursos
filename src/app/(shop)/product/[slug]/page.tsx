@@ -25,10 +25,18 @@ export default function ({ params }: Props) {
       {/* Slideshow */}
       <div className="col-span-1 md:col-span-2">
         {/* Mobile Slideshow */}
-        <ProductMobileSlideshow className="block md:hidden" title={product.title} images={product.images} />
+        <ProductMobileSlideshow
+          className="block md:hidden"
+          title={product.title}
+          images={product.images}
+        />
 
         {/* Desktop Slideshow */}
-        <ProductSlideshow className="hidden md:block" title={product.title} images={product.images} />
+        <ProductSlideshow
+          className="hidden md:block"
+          title={product.title}
+          images={product.images}
+        />
       </div>
 
       {/* Detalles */}
