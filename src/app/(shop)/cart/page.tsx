@@ -76,7 +76,7 @@ export default function () {
             </div>
 
             <div className="mt-5 mb-2 w-full">
-              <Link href="/checkout/address" className="flex btn-secondary justify-center">Checkout</Link> 
+              <Link href="/checkout/address" className="flex btn-primary justify-center">Checkout</Link>  
             </div>
           </div>
         </div>

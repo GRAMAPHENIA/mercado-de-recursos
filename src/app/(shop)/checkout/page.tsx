@@ -103,7 +103,7 @@ export default function () {
 
               <Link
                 href="/orders/123"
-                className="flex btn-secondary justify-center"
+                className="flex btn-primary justify-center"
               >
                 Colocar orden
               </Link>

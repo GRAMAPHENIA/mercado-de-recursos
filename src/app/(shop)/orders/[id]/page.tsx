@@ -121,7 +121,7 @@ export default function ({ params }: props) {
             <div className="mt-5 mb-2 w-full">
               <div
                 className={clsx(
-                  "flex items-center rounded-lg py-2 px-3.5 text-xs font-bold text-white mb-5",
+                  "flex items-center rounded-lg py-2 px-3.5 text-xs font-bold text-white",
                   {
                     "bg-red-800/60": false,
                     "bg-green-800/60": true,
