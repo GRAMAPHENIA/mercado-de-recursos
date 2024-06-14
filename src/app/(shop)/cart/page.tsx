@@ -1,5 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+
+import {redirect} from "next/navigation";
 
 import { initialData } from "@/seed/seed";
 
@@ -13,6 +15,9 @@ const productsInCart = [
 ];
 
 export default function () {
+
+  // redirect("/empty");
+
   return (
     <div className="flex justify-center items-center mb-72 px-10 sm:px-0">
       <div className="flex flex-col w-[1000px]">
@@ -37,7 +42,7 @@ export default function () {
                   height={100}
                   style={{
                     width: "100px",
-                    height: "100px"
+                    height: "100px",
                   }}
                   alt={product.title}
                   className="mr-5 rounded"
@@ -76,7 +81,12 @@ export default function () {
             </div>
 
             <div className="mt-5 mb-2 w-full">
-              <Link href="/checkout/address" className="flex btn-primary justify-center">Checkout</Link>  
+              <Link
+                href="/checkout/address"
+                className="flex btn-primary justify-center"
+              >
+                Checkout
+              </Link>
             </div>
           </div>
         </div>

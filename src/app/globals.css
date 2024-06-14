@@ -64,5 +64,9 @@ body {
 }
 
 .btn-danger {
-  @apply bg-red-800/60 hover:bg-red-800/70 text-white py-2 px-4 rounded transition-all;
+  @apply bg-slate-800/60 hover:bg-slate-800/70 text-white py-2 px-4 rounded transition-all;
+}
+
+.btn-info {
+  @apply bg-slate-800/60 hover:bg-slate-800/70 text-white py-2 px-4 rounded transition-all;
 }
