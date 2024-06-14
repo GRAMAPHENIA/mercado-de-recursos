@@ -56,7 +56,7 @@ export default function () {
 
           {/* Checkout - Resumen de orden */}
 
-          <div className="bg-white rounded-xl shadow-xl p-7">
+          <div className="bg-white rounded-xl shadow-xl p-7 h-[300px]">
             <h2 className="text-2xl mb-2">Resumen de orden</h2>
             <div className="grid grid-cols-2">
               <span>No.Productos</span>
@@ -76,7 +76,7 @@ export default function () {
             </div>
 
             <div className="mt-5 mb-2 w-full">
-              <Link href="/checkout/address" className="flex btn-secondary justify-center">Checkout</Link>
+              <Link href="/checkout/address" className="flex btn-secondary justify-center">Checkout</Link> 
             </div>
           </div>
         </div>
