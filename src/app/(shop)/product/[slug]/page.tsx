@@ -1,9 +1,12 @@
 import { initialData } from "@/seed/seed";
+
 import { titleFont } from "@/config/fonts";
+
 import { notFound } from "next/navigation";
+
 import { SizeSelector } from "@/components/product/size-selector/SizeSelector";
-import { QuantitySelector } from "@/components/product/quantity-selector/QuantitySelector";
 import { ProductSlideshow } from "@/components/product/slideshow/ProductSlideshow";
+import { QuantitySelector } from "@/components/product/quantity-selector/QuantitySelector";
 import { ProductMobileSlideshow } from "@/components/product/slideshow/ProductMobileSlideshow";
 
 interface Props {

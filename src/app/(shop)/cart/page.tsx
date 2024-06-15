@@ -19,7 +19,7 @@ export default function () {
   // redirect("/empty");
 
   return (
-    <div className="flex justify-center items-center mb-72 px-10 sm:px-0">
+    <div className="flex justify-center items-center mb-8 px-10 sm:px-0">
       <div className="flex flex-col w-[1000px]">
         <Title title="Carrito" />
 
@@ -61,7 +61,7 @@ export default function () {
 
           {/* Checkout - Resumen de orden */}
 
-          <div className="bg-white rounded-xl shadow-xl p-7 h-[300px]">
+          <div className="bg-white rounded-xl shadow-2xl p-7 h-[300px]">
             <h2 className="text-2xl mb-2">Resumen de orden</h2>
             <div className="grid grid-cols-2">
               <span>No.Productos</span>
@@ -85,7 +85,7 @@ export default function () {
                 href="/checkout/address"
                 className="flex btn-primary justify-center"
               >
-                Checkout
+                Continuar compra
               </Link>
             </div>
           </div>

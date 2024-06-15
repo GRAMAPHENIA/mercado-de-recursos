@@ -4,7 +4,7 @@ import { Title } from "@/components/title/Title";
 
 export default function () {
   return (
-    <div className="flex flex-col sm:justify-center sm:items-center mb-72 px-10 sm:px-0 bg-stone-50 p-4 rounded-xl">
+    <div className="flex flex-col sm:justify-center sm:items-center mb-8 px-10 sm:px-0 bg-stone-50 p-4 rounded-xl shadow-2xl">
       <div className="w-full  xl:w-[1000px] flex flex-col justify-center text-left">
         <Title title="Dirección" subtitle="Dirección de entrega" />
 

@@ -29,7 +29,7 @@ export default function ({ params }: props) {
   // TAREA: redireccionamiento (/)
 
   return (
-    <div className="flex justify-center items-center mb-72 px-10 sm:px-0">
+    <div className="flex justify-center items-center mb-8 px-10 sm:px-0">
       <div className="flex flex-col w-[1000px]">
         <Title title={`Orden #${id}`} />
 
@@ -83,7 +83,7 @@ export default function ({ params }: props) {
 
           {/* Checkout - Resumen de orden */}
 
-          <div className="bg-white rounded-xl shadow-xl p-7">
+          <div className="bg-white rounded-xl shadow-2xl p-7">
             <h2 className="text-2xl mb-2">Dirección de entrega</h2>
             <div className="mb-10">
               <p className="text-xl">Jhon Doe</p>

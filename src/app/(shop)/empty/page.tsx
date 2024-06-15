@@ -11,7 +11,7 @@ export default function () {
           Tu carrito de compras esta vacío
         </h1>
 
-        <Link href="/" className="text-stone-500 mt-2 text-xl border border-stone-500 px-4 py-2 rounded-full text-center btn-info">
+        <Link href="/" className="text-stone-500 mt-2 text-xl text-center btn-primary">
           Regresar
         </Link>
       </div>
