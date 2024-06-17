@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { titleFont } from "@/config/fonts";
+import { titleFont } from "@/config/fonts"; 
 import { IoSearchOutline, IoCartOutline } from "react-icons/io5";
 import { useUIStore } from "@/store/ui/ui-store";
 

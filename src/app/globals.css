@@ -70,3 +70,7 @@ body {
 .btn-info {
   @apply bg-slate-800/60 hover:bg-slate-800/70 text-white py-2 px-4 rounded transition-all;
 }
+
+.btn-new {
+  @apply bg-blue-800/60 hover:bg-blue-800/70 text-white py-2 px-4 rounded transition-all;
+}

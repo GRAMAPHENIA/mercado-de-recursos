@@ -1,5 +1,6 @@
-import { Title } from "@/components/title/Title";
 import { initialData } from "@/seed/seed";
+
+import { Title } from "@/components/title/Title";
 import { ProductGrid } from "@/components/products/product-grid/ProductGrid";
 
 const products = initialData.products;
